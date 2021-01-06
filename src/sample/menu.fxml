@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.menu">
+   <children>
+      <BorderPane prefHeight="750.0" prefWidth="901.0">
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" styleClass="bodybg" stylesheets="@menu.css" BorderPane.alignment="CENTER">
+               <effect>
+                  <DropShadow color="#830f0f" />
+               </effect>
+               <children>
+                  <Label fx:id="lStart" layoutX="387.0" layoutY="128.0" onMouseClicked="#handleStartGame" text="Start" textFill="#b8b549">
+                     <font>
+                        <Font name="Comic Sans MS" size="48.0" />
+                     </font>
+                     <effect>
+                        <Glow>
+                           <input>
+                              <Bloom />
+                           </input>
+                        </Glow>
+                     </effect>
+                  </Label>
+                  <Label fx:id="lExit" layoutX="403.0" layoutY="600.0" onMouseClicked="#handleExit" text="Exit" textFill="#b8b549">
+                     <effect>
+                        <Glow>
+                           <input>
+                              <Bloom />
+                           </input>
+                        </Glow>
+                     </effect>
+                     <font>
+                        <Font name="Comic Sans MS" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lRules" layoutX="392.0" layoutY="206.0" onMouseClicked="#handleRules" text="Rules" textFill="#b8b549">
+                     <effect>
+                        <Glow>
+                           <input>
+                              <Bloom />
+                           </input>
+                        </Glow>
+                     </effect>
+                     <font>
+                        <Font name="Comic Sans MS" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lCredits" layoutX="368.0" layoutY="533.0" onMouseClicked="#handleCredits" text="Credits" textFill="#b8b549">
+                     <effect>
+                        <Glow>
+                           <input>
+                              <Bloom />
+                           </input>
+                        </Glow>
+                     </effect>
+                     <font>
+                        <Font name="Comic Sans MS" size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

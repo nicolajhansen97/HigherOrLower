@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Rules">
+   <children>
+      <Label layoutX="323.0" layoutY="280.0" text="Under udvikling" />
+      <Button fx:id="bMainMenu" layoutX="309.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#handleMainMenu" text="Back to main menu" />
+   </children>
+</AnchorPane>

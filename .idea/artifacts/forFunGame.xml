@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="forFunGame">
+    <output-path>$PROJECT_DIR$/out/artifacts</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="V1.0" />
+        <option name="height" value="750" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/icon.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="Højere eller lavere" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.0" />
+        <option name="width" value="900" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="forFunGame.jar">
+        <element id="module-output" name="forFunGame" />
+      </element>
+    </root>
+  </artifact>
+</component>
